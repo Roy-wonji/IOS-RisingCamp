@@ -4,6 +4,6 @@
 
 ## 🗓 기간: 2022.06.06 ~ 2022.08.04 
 
-|No|프로젝트|기간|Step1|Step2|Step 3|Reviewer|팀원|
+|No|프로젝트|기간|Step1|Step2|Step 3|주차별 개발일지|팀원|
 |:--:|:----------:|:---:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|1|[넷플랙스 클론 코딩](https://github.com/Roy-wonji/IOS-RisingCamp/tree/main/Risingcamp_week1)|1주|-|-|-|-|[Roy](https://github.com/Roy-wonji) |
+|1|[넷플랙스 클론 코딩](https://github.com/Roy-wonji/IOS-RisingCamp/tree/main/Risingcamp_week1)|1주|-|-|-|[1주차](https://www.notion.so/softsquared/1-3b38bdd164cd487a9c9043b28c8bb953)|[Roy](https://github.com/Roy-wonji) |
