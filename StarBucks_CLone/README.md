@@ -7,30 +7,39 @@
 
 ### 실행 영상 </br>
 
-![화면 기록 2022-06-07 오후 10 50 17](https://user-images.githubusercontent.com/75601594/172403521-a6426040-f651-4530-afeb-e8eff1a2a362.gif)
+<img src = "https://user-images.githubusercontent.com/75601594/174072896-259480b5-70b6-4332-9342-c512f23f318b.gif" width=25%>
+
 
 </br>
 
 ### 화면 UI
 </br>
 
-<img src="https://user-images.githubusercontent.com/75601594/172407322-2a44708c-d74d-492e-8c12-685a54b922bd.jpg" width=30%> </br>
+<img src="https://user-images.githubusercontent.com/75601594/174072947-0235c783-6694-481b-b94a-e796cad81158.jpg" width=60%> </br>
+
 
 
 🗂 세부사항
 
 - scrollView
 - storyboard
-- no code
-- tabbarController </br>
-- 
+- tabbarController 
+- UITableView
+- TabBarItem
+- Bar button Item
+- NavigationController
+- NavigationBar
+- Segmented Control
+- UIReusableTableView
+- UITableViewCell
+- Stepper </br>
 
+<details>
 <summary><b>🖇 해당 주차 키워드 및  내용 정리 <b/></summary>
 <div markdown="1">
  &nbsp;
- 
- - [2022.06.07](https://www.notion.so/softsquared/Netfliex-311a641f0b6d4332804878215018538e)
 
+ - [2022.06.13](https://www.notion.so/softsquared/b84a3ba35dd24595a4500d93675e759a)
 
  &nbsp;   
 </div>
