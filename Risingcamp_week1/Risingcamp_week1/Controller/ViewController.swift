@@ -9,9 +9,7 @@ import UIKit
 
 final class ViewController: UIViewController {
     
-  
     @IBOutlet weak var imagview: UIImageView!
-    
     @IBOutlet weak var tabbar: UITabBarItem!
     
     override func viewDidLoad() {

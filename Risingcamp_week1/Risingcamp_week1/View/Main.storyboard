@@ -287,7 +287,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="qMo-Kg-h3D"/>
                             </scrollView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rtE-Fy-Iwb" userLabel="시리즈﹒영화﹒카테고리▼ StackView">
-                                <rect key="frame" x="30" y="-67.5" width="354" height="20.5"/>
+                                <rect key="frame" x="30" y="74" width="354" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시리즈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jW-Ui-XJW" userLabel="시리즈">
                                         <rect key="frame" x="0.0" y="0.0" width="118" height="20.5"/>
@@ -310,7 +310,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Tjd-lS-Wpy">
-                                <rect key="frame" x="339" y="-92.5" width="55" height="25"/>
+                                <rect key="frame" x="339" y="49" width="55" height="25"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tv" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="x4U-lG-obz" userLabel="User profile_jump">
                                         <rect key="frame" x="0.0" y="0.5" width="25" height="24"/>
@@ -330,14 +330,14 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="netflixN" translatesAutoresizingMaskIntoConstraints="NO" id="Q4d-G0-1ZE">
-                                <rect key="frame" x="20" y="-92.5" width="25" height="25"/>
+                                <rect key="frame" x="20" y="49" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="MHq-VK-vjh"/>
                                     <constraint firstAttribute="height" constant="25" id="aFu-vg-O6c"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="섬뜩한﹒피로 물든﹒10대﹒스릴러" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pau-lH-Jl7">
-                                <rect key="frame" x="0.0" y="169" width="414" height="20.5"/>
+                                <rect key="frame" x="0.0" y="452" width="414" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -405,7 +405,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UhC-CM-ywc">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhC-CM-ywc">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="816"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gRx-60-X65" userLabel="MainVerticalStackView">
@@ -679,7 +679,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="eAB-lz-bdE"/>
                             </scrollView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yn9-oh-1LI" userLabel="시리즈﹒영화﹒카테고리▼ StackView">
-                                <rect key="frame" x="30" y="72" width="354" height="20.5"/>
+                                <rect key="frame" x="30" y="74" width="354" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시리즈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEj-mi-0nB" userLabel="시리즈">
                                         <rect key="frame" x="0.0" y="0.0" width="118" height="20.5"/>
@@ -702,21 +702,21 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="아이언맨" translatesAutoresizingMaskIntoConstraints="NO" id="vG1-OM-LfX" userLabel="User profile_jump">
-                                <rect key="frame" x="369" y="47" width="25" height="25"/>
+                                <rect key="frame" x="369" y="49" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="BUU-Kk-xIr"/>
                                     <constraint firstAttribute="width" constant="25" id="gBO-t7-8Qe"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="netflixN" translatesAutoresizingMaskIntoConstraints="NO" id="Wjl-cc-ZhR">
-                                <rect key="frame" x="20" y="47" width="25" height="25"/>
+                                <rect key="frame" x="20" y="49" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="HmX-N4-Csy"/>
                                     <constraint firstAttribute="height" constant="25" id="J0s-Jc-u2V"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="섬뜩한﹒피로 물든﹒10대﹒스릴러" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibI-ss-hZs">
-                                <rect key="frame" x="0.0" y="448" width="414" height="20.5"/>
+                                <rect key="frame" x="0.0" y="452" width="414" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -747,7 +747,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3l6-AL-Cf4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1970" y="-230"/>
+            <point key="canvasLocation" x="2668" y="-506"/>
         </scene>
         <!--검색-->
         <scene sceneID="Fgi-ZT-dvo">
@@ -1031,7 +1031,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="1sU-qU-7nn"/>
                             </scrollView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BxZ-ty-mG3" userLabel="시리즈﹒영화﹒카테고리▼ StackView">
-                                <rect key="frame" x="30" y="-67.5" width="354" height="20.5"/>
+                                <rect key="frame" x="30" y="74" width="354" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시리즈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAx-LU-Jvp" userLabel="시리즈">
                                         <rect key="frame" x="0.0" y="0.0" width="118" height="20.5"/>
@@ -1054,21 +1054,21 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="아이언맨" translatesAutoresizingMaskIntoConstraints="NO" id="dfm-br-BMR" userLabel="User profile_jump">
-                                <rect key="frame" x="369" y="-92.5" width="25" height="25"/>
+                                <rect key="frame" x="369" y="49" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="eHD-7u-7oX"/>
                                     <constraint firstAttribute="height" constant="25" id="pS3-qx-YUP"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="netflixN" translatesAutoresizingMaskIntoConstraints="NO" id="aIP-JW-zPp">
-                                <rect key="frame" x="20" y="-92.5" width="25" height="25"/>
+                                <rect key="frame" x="20" y="49" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="4Nf-hW-8Ea"/>
                                     <constraint firstAttribute="width" constant="25" id="xWq-ky-oA0"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="섬뜩한﹒피로 물든﹒10대﹒스릴러" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gw5-iE-zTw">
-                                <rect key="frame" x="0.0" y="169" width="414" height="20.5"/>
+                                <rect key="frame" x="0.0" y="452" width="414" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1099,7 +1099,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rlA-2r-1jh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1067" y="674"/>
+            <point key="canvasLocation" x="2804" y="890"/>
         </scene>
         <!--저장한 콘텐츠 목록-->
         <scene sceneID="luy-g3-S0h">
@@ -1383,7 +1383,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="XBi-co-JuT"/>
                             </scrollView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="I24-RV-hTC" userLabel="시리즈﹒영화﹒카테고리▼ StackView">
-                                <rect key="frame" x="30" y="-67" width="354" height="20.5"/>
+                                <rect key="frame" x="30" y="74" width="354" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시리즈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dv-EA-e5J" userLabel="시리즈">
                                         <rect key="frame" x="0.0" y="0.0" width="118" height="20.5"/>
@@ -1406,21 +1406,21 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="아이언맨" translatesAutoresizingMaskIntoConstraints="NO" id="zsG-Sd-qcX" userLabel="User profile_jump">
-                                <rect key="frame" x="369" y="-92" width="25" height="25"/>
+                                <rect key="frame" x="369" y="49" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="OGD-eS-4rK"/>
                                     <constraint firstAttribute="width" constant="25" id="Tvo-rU-pJF"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="netflixN" translatesAutoresizingMaskIntoConstraints="NO" id="rbL-za-X2W">
-                                <rect key="frame" x="20" y="-92" width="25" height="25"/>
+                                <rect key="frame" x="20" y="49" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="8u6-LO-AnC"/>
                                     <constraint firstAttribute="height" constant="25" id="h1K-xx-waC"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="섬뜩한﹒피로 물든﹒10대﹒스릴러" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAo-rM-v87">
-                                <rect key="frame" x="0.0" y="170" width="414" height="20.5"/>
+                                <rect key="frame" x="0.0" y="452" width="414" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1451,7 +1451,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uuo-eY-30s" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1878" y="674"/>
+            <point key="canvasLocation" x="2804" y="214"/>
         </scene>
     </scenes>
     <resources>
