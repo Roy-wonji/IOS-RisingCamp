@@ -1,8 +1,8 @@
 # ⛺️Rising Camp(라이징캠프) 7th
 
 
-#### 🗓프로젝트 : 넷플랙스 클론 코딩
-#### 🗓 기간: 2022.06.06 ~ 2022.06.10  </br></br>
+#### 🗓프로젝트 스타벅스 클론 코딩
+#### 🗓 기간: 2022.06.13 ~ 2022.06.16  </br></br>
 
 
 ### 실행 영상 </br>
@@ -32,7 +32,9 @@
 - Segmented Control
 - UIReusableTableView
 - UITableViewCell
-- Stepper </br>
+- Stepper 
+- blurView
+- UNUserNotificationCenter </br>
 
 <details>
 <summary><b>🖇 해당 주차 키워드 및  내용 정리 <b/></summary>
