@@ -1,13 +1,13 @@
 # ⛺️Rising Camp(라이징캠프) 7th
 
 
-#### 🗓프로젝트 스타벅스 클론 코딩
-#### 🗓 기간: 2022.06.13 ~ 2022.06.16  </br></br>
+#### 🗓프로젝트 배달의민족 클론 코딩
+#### 🗓 기간: 2022.06.21 ~ 2022.06.24  </br></br>
 
 
 ### 실행 영상 </br>
 
-<img src = "https://user-images.githubusercontent.com/75601594/174072896-259480b5-70b6-4332-9342-c512f23f318b.gif" width=25%>
+<img src = "https://user-images.githubusercontent.com/75601594/175778989-03d3b9d7-42c5-4ca5-9ac7-ee5fea92d09b.gif" width=25%>
 
 
 </br>
@@ -15,7 +15,8 @@
 ### 화면 UI
 </br>
 
-<img src="https://user-images.githubusercontent.com/75601594/174072947-0235c783-6694-481b-b94a-e796cad81158.jpg" width=60%> </br>
+<img src="https://user-images.githubusercontent.com/75601594/175778390-1bd8e989-b7bb-4fd7-a1bb-b09f8b511f09.jpg" width=60%> </br>
+
 
 
 
