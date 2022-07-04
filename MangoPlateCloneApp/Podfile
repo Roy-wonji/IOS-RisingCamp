@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MangoPlateCloneApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MangoPlateCloneApp
+    pod 'RxSwift', '6.5.0'
+    pod 'RxCocoa', '6.5.0'
+    pod 'SnapKit', '~> 5.0.0'
+    pod 'Then'  
+    pod 'Tabman', '~> 2.12'
+    pod 'Alamofire'
+    pod 'Kingfisher', '~> 7.0'
+    pod 'RxKakaoSDKCommon'  
+    pod 'RxKakaoSDKAuth'  
+    pod 'RxKakaoSDKUser'  
+    pod 'RxKakaoSDKTalk'  
+    pod 'KakaoSDKCommon'
+    pod 'KakaoSDKAuth'
+    pod 'KakaoSDKUser' 
+    pod 'KakaoSDKNavi'
+    pod 'naveridlogin-sdk-ios'
+end

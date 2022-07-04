@@ -1,0 +1,22 @@
+${PODS_ROOT}/Target Support Files/Pods-MangoPlateCloneApp/Pods-MangoPlateCloneApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/KakaoSDKAuth/KakaoSDKAuth.framework
+${BUILT_PRODUCTS_DIR}/KakaoSDKCommon/KakaoSDKCommon.framework
+${BUILT_PRODUCTS_DIR}/KakaoSDKNavi/KakaoSDKNavi.framework
+${BUILT_PRODUCTS_DIR}/KakaoSDKTalk/KakaoSDKTalk.framework
+${BUILT_PRODUCTS_DIR}/KakaoSDKTemplate/KakaoSDKTemplate.framework
+${BUILT_PRODUCTS_DIR}/KakaoSDKUser/KakaoSDKUser.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework
+${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxKakaoSDKAuth/RxKakaoSDKAuth.framework
+${BUILT_PRODUCTS_DIR}/RxKakaoSDKCommon/RxKakaoSDKCommon.framework
+${BUILT_PRODUCTS_DIR}/RxKakaoSDKTalk/RxKakaoSDKTalk.framework
+${BUILT_PRODUCTS_DIR}/RxKakaoSDKUser/RxKakaoSDKUser.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework
+${BUILT_PRODUCTS_DIR}/Then/Then.framework
+${PODS_ROOT}/naveridlogin-sdk-ios/NaverThirdPartyLogin.framework
