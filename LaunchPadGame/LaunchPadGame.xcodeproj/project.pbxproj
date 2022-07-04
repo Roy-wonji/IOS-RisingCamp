@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F4A0FFC286C7C2D00426F7F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4A0FFB286C7C2D00426F7F /* MainViewModel.swift */; };
+		B24B4F2CE7EA6E20BF332A0F /* Pods_LaunchPadGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B90CDC7ACFFF0A41E88C0F /* Pods_LaunchPadGame.framework */; };
+		C011B33C27704394009BF610 /* fever.json in Resources */ = {isa = PBXBuildFile; fileRef = C011B33B27704394009BF610 /* fever.json */; };
+		C0777741276F191C00750AF7 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0777740276F191C00750AF7 /* Song.swift */; };
+		C0777743276F197500750AF7 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0777742276F197500750AF7 /* AudioPlayer.swift */; };
+		C0777745276F28EB00750AF7 /* ily.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0777744276F28EB00750AF7 /* ily.mp3 */; };
+		C08FC45C276F184400F8DD8D /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08FC45B276F184400F8DD8D /* SongTableViewController.swift */; };
+		C0BDD319276E3FDE00B09E2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDD318276E3FDE00B09E2A /* AppDelegate.swift */; };
+		C0BDD31B276E3FDE00B09E2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDD31A276E3FDE00B09E2A /* SceneDelegate.swift */; };
+		C0BDD31D276E3FDE00B09E2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDD31C276E3FDE00B09E2A /* MainViewController.swift */; };
+		C0BDD320276E3FDE00B09E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BDD31E276E3FDE00B09E2A /* Main.storyboard */; };
+		C0BDD322276E3FE100B09E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BDD321276E3FE100B09E2A /* Assets.xcassets */; };
+		C0BDD325276E3FE100B09E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BDD323276E3FE100B09E2A /* LaunchScreen.storyboard */; };
+		C0BDD349276E4BC800B09E2A /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDD348276E4BC800B09E2A /* ButtonCollectionViewCell.swift */; };
+		C0C086C927715DB90032610A /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C086C827715DB90032610A /* SongTableViewCell.swift */; };
+		C0E731A627716A560043D42B /* ChristMas HipHop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E731A527716A560043D42B /* ChristMas HipHop.mp3 */; };
+		C0E731A82771762B0043D42B /* Last ChristMas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E731A72771762B0043D42B /* Last ChristMas.mp3 */; };
+		C0E731AA2771782C0043D42B /* Save Your Tears.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C0E731A92771782C0043D42B /* Save Your Tears.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0BDD32C276E3FE100B09E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0BDD30D276E3FDE00B09E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BDD314276E3FDE00B09E2A;
+			remoteInfo = LaunchPadGame;
+		};
+		C0BDD336276E3FE100B09E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0BDD30D276E3FDE00B09E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BDD314276E3FDE00B09E2A;
+			remoteInfo = LaunchPadGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FCC92952FE30FB36E93CB3B /* Pods-LaunchPadGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaunchPadGame.debug.xcconfig"; path = "Target Support Files/Pods-LaunchPadGame/Pods-LaunchPadGame.debug.xcconfig"; sourceTree = "<group>"; };
+		7F4A0FFB286C7C2D00426F7F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C011B33B27704394009BF610 /* fever.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fever.json; sourceTree = "<group>"; };
+		C0777740276F191C00750AF7 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C0777742276F197500750AF7 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		C0777744276F28EB00750AF7 /* ily.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ily.mp3; sourceTree = "<group>"; };
+		C08FC45B276F184400F8DD8D /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		C0BDD315276E3FDE00B09E2A /* LaunchPadGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchPadGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BDD318276E3FDE00B09E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0BDD31A276E3FDE00B09E2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0BDD31C276E3FDE00B09E2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C0BDD31F276E3FDE00B09E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0BDD321276E3FE100B09E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0BDD324276E3FE100B09E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0BDD326276E3FE100B09E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BDD32B276E3FE100B09E2A /* LaunchPadGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchPadGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BDD335276E3FE100B09E2A /* LaunchPadGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchPadGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BDD348276E4BC800B09E2A /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		C0C086C827715DB90032610A /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		C0E731A527716A560043D42B /* ChristMas HipHop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ChristMas HipHop.mp3"; sourceTree = "<group>"; };
+		C0E731A72771762B0043D42B /* Last ChristMas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Last ChristMas.mp3"; sourceTree = "<group>"; };
+		C0E731A92771782C0043D42B /* Save Your Tears.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Save Your Tears.mp3"; sourceTree = "<group>"; };
+		F3991E2FA4460F7E3A63C62D /* Pods-LaunchPadGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaunchPadGame.release.xcconfig"; path = "Target Support Files/Pods-LaunchPadGame/Pods-LaunchPadGame.release.xcconfig"; sourceTree = "<group>"; };
+		F4B90CDC7ACFFF0A41E88C0F /* Pods_LaunchPadGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaunchPadGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0BDD312276E3FDE00B09E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24B4F2CE7EA6E20BF332A0F /* Pods_LaunchPadGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BDD328276E3FE100B09E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BDD332276E3FE100B09E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F146F9D286C823F0079A0C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A0FFB286C7C2D00426F7F /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7F4A100B286C7F3200426F7F /* Utills */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDD318276E3FDE00B09E2A /* AppDelegate.swift */,
+				C0BDD31A276E3FDE00B09E2A /* SceneDelegate.swift */,
+			);
+			path = Utills;
+			sourceTree = "<group>";
+		};
+		7F6EC7A328708DD8003A3E5D /* Musics */ = {
+			isa = PBXGroup;
+			children = (
+				C0E731A92771782C0043D42B /* Save Your Tears.mp3 */,
+				C011B33B27704394009BF610 /* fever.json */,
+				C0777744276F28EB00750AF7 /* ily.mp3 */,
+				C0E731A527716A560043D42B /* ChristMas HipHop.mp3 */,
+				C0E731A72771762B0043D42B /* Last ChristMas.mp3 */,
+			);
+			path = Musics;
+			sourceTree = "<group>";
+		};
+		94A823D8381230F882116AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4B90CDC7ACFFF0A41E88C0F /* Pods_LaunchPadGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C011B34127705563009BF610 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDD31C276E3FDE00B09E2A /* MainViewController.swift */,
+				C0BDD348276E4BC800B09E2A /* ButtonCollectionViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C077773D276F18E900750AF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0777740276F191C00750AF7 /* Song.swift */,
+				C0777742276F197500750AF7 /* AudioPlayer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C077773E276F18F000750AF7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C011B34127705563009BF610 /* Main */,
+				C08FC45B276F184400F8DD8D /* SongTableViewController.swift */,
+				C0C086C827715DB90032610A /* SongTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C077773F276F190800750AF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDD31E276E3FDE00B09E2A /* Main.storyboard */,
+				C0BDD321276E3FE100B09E2A /* Assets.xcassets */,
+				C0BDD323276E3FE100B09E2A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0BDD30C276E3FDE00B09E2A = {
+			isa = PBXGroup;
+			children = (
+				7F6EC7A328708DD8003A3E5D /* Musics */,
+				C0BDD317276E3FDE00B09E2A /* LaunchPadGame */,
+				C0BDD316276E3FDE00B09E2A /* Products */,
+				E7FC4ACCA84927D2A09DB4DD /* Pods */,
+				94A823D8381230F882116AC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0BDD316276E3FDE00B09E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDD315276E3FDE00B09E2A /* LaunchPadGame.app */,
+				C0BDD32B276E3FE100B09E2A /* LaunchPadGameTests.xctest */,
+				C0BDD335276E3FE100B09E2A /* LaunchPadGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0BDD317276E3FDE00B09E2A /* LaunchPadGame */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A100B286C7F3200426F7F /* Utills */,
+				C077773E276F18F000750AF7 /* Controllers */,
+				7F146F9D286C823F0079A0C5 /* ViewModel */,
+				C077773F276F190800750AF7 /* View */,
+				C077773D276F18E900750AF7 /* Model */,
+				C0BDD326276E3FE100B09E2A /* Info.plist */,
+			);
+			path = LaunchPadGame;
+			sourceTree = "<group>";
+		};
+		E7FC4ACCA84927D2A09DB4DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FCC92952FE30FB36E93CB3B /* Pods-LaunchPadGame.debug.xcconfig */,
+				F3991E2FA4460F7E3A63C62D /* Pods-LaunchPadGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0BDD314276E3FDE00B09E2A /* LaunchPadGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BDD33F276E3FE100B09E2A /* Build configuration list for PBXNativeTarget "LaunchPadGame" */;
+			buildPhases = (
+				900611AC3B51FA1C2177CE8D /* [CP] Check Pods Manifest.lock */,
+				C0BDD311276E3FDE00B09E2A /* Sources */,
+				C0BDD312276E3FDE00B09E2A /* Frameworks */,
+				C0BDD313276E3FDE00B09E2A /* Resources */,
+				9D755958CA39C6D8B7779F15 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchPadGame;
+			productName = LaunchPadGame;
+			productReference = C0BDD315276E3FDE00B09E2A /* LaunchPadGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0BDD32A276E3FE100B09E2A /* LaunchPadGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BDD342276E3FE100B09E2A /* Build configuration list for PBXNativeTarget "LaunchPadGameTests" */;
+			buildPhases = (
+				C0BDD327276E3FE100B09E2A /* Sources */,
+				C0BDD328276E3FE100B09E2A /* Frameworks */,
+				C0BDD329276E3FE100B09E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0BDD32D276E3FE100B09E2A /* PBXTargetDependency */,
+			);
+			name = LaunchPadGameTests;
+			productName = LaunchPadGameTests;
+			productReference = C0BDD32B276E3FE100B09E2A /* LaunchPadGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0BDD334276E3FE100B09E2A /* LaunchPadGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BDD345276E3FE100B09E2A /* Build configuration list for PBXNativeTarget "LaunchPadGameUITests" */;
+			buildPhases = (
+				C0BDD331276E3FE100B09E2A /* Sources */,
+				C0BDD332276E3FE100B09E2A /* Frameworks */,
+				C0BDD333276E3FE100B09E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0BDD337276E3FE100B09E2A /* PBXTargetDependency */,
+			);
+			name = LaunchPadGameUITests;
+			productName = LaunchPadGameUITests;
+			productReference = C0BDD335276E3FE100B09E2A /* LaunchPadGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0BDD30D276E3FDE00B09E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C0BDD314276E3FDE00B09E2A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C0BDD32A276E3FE100B09E2A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C0BDD314276E3FDE00B09E2A;
+					};
+					C0BDD334276E3FE100B09E2A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C0BDD314276E3FDE00B09E2A;
+					};
+				};
+			};
+			buildConfigurationList = C0BDD310276E3FDE00B09E2A /* Build configuration list for PBXProject "LaunchPadGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0BDD30C276E3FDE00B09E2A;
+			packageReferences = (
+				C011B33827704348009BF610 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = C0BDD316276E3FDE00B09E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0BDD314276E3FDE00B09E2A /* LaunchPadGame */,
+				C0BDD32A276E3FE100B09E2A /* LaunchPadGameTests */,
+				C0BDD334276E3FE100B09E2A /* LaunchPadGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0BDD313276E3FDE00B09E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E731A82771762B0043D42B /* Last ChristMas.mp3 in Resources */,
+				C0E731A627716A560043D42B /* ChristMas HipHop.mp3 in Resources */,
+				C011B33C27704394009BF610 /* fever.json in Resources */,
+				C0BDD325276E3FE100B09E2A /* LaunchScreen.storyboard in Resources */,
+				C0BDD322276E3FE100B09E2A /* Assets.xcassets in Resources */,
+				C0BDD320276E3FDE00B09E2A /* Main.storyboard in Resources */,
+				C0E731AA2771782C0043D42B /* Save Your Tears.mp3 in Resources */,
+				C0777745276F28EB00750AF7 /* ily.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BDD329276E3FE100B09E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BDD333276E3FE100B09E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		900611AC3B51FA1C2177CE8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaunchPadGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D755958CA39C6D8B7779F15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaunchPadGame/Pods-LaunchPadGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaunchPadGame/Pods-LaunchPadGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaunchPadGame/Pods-LaunchPadGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0BDD311276E3FDE00B09E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0777741276F191C00750AF7 /* Song.swift in Sources */,
+				C0C086C927715DB90032610A /* SongTableViewCell.swift in Sources */,
+				7F4A0FFC286C7C2D00426F7F /* MainViewModel.swift in Sources */,
+				C08FC45C276F184400F8DD8D /* SongTableViewController.swift in Sources */,
+				C0BDD349276E4BC800B09E2A /* ButtonCollectionViewCell.swift in Sources */,
+				C0BDD31D276E3FDE00B09E2A /* MainViewController.swift in Sources */,
+				C0BDD319276E3FDE00B09E2A /* AppDelegate.swift in Sources */,
+				C0BDD31B276E3FDE00B09E2A /* SceneDelegate.swift in Sources */,
+				C0777743276F197500750AF7 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BDD327276E3FE100B09E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BDD331276E3FE100B09E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0BDD32D276E3FE100B09E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0BDD314276E3FDE00B09E2A /* LaunchPadGame */;
+			targetProxy = C0BDD32C276E3FE100B09E2A /* PBXContainerItemProxy */;
+		};
+		C0BDD337276E3FE100B09E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0BDD314276E3FDE00B09E2A /* LaunchPadGame */;
+			targetProxy = C0BDD336276E3FE100B09E2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0BDD31E276E3FDE00B09E2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BDD31F276E3FDE00B09E2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0BDD323276E3FE100B09E2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BDD324276E3FE100B09E2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0BDD33D276E3FE100B09E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0BDD33E276E3FE100B09E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0BDD340276E3FE100B09E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCC92952FE30FB36E93CB3B /* Pods-LaunchPadGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N94CS4N6VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LaunchPadGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonji.LaunchPadGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0BDD341276E3FE100B09E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3991E2FA4460F7E3A63C62D /* Pods-LaunchPadGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N94CS4N6VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LaunchPadGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonji.LaunchPadGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0BDD343276E3FE100B09E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DC5UF7YA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongtae.LaunchPadGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchPadGame.app/LaunchPadGame";
+			};
+			name = Debug;
+		};
+		C0BDD344276E3FE100B09E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DC5UF7YA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongtae.LaunchPadGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchPadGame.app/LaunchPadGame";
+			};
+			name = Release;
+		};
+		C0BDD346276E3FE100B09E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DC5UF7YA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongtae.LaunchPadGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaunchPadGame;
+			};
+			name = Debug;
+		};
+		C0BDD347276E3FE100B09E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DC5UF7YA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongtae.LaunchPadGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaunchPadGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0BDD310276E3FDE00B09E2A /* Build configuration list for PBXProject "LaunchPadGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BDD33D276E3FE100B09E2A /* Debug */,
+				C0BDD33E276E3FE100B09E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BDD33F276E3FE100B09E2A /* Build configuration list for PBXNativeTarget "LaunchPadGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BDD340276E3FE100B09E2A /* Debug */,
+				C0BDD341276E3FE100B09E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BDD342276E3FE100B09E2A /* Build configuration list for PBXNativeTarget "LaunchPadGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BDD343276E3FE100B09E2A /* Debug */,
+				C0BDD344276E3FE100B09E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BDD345276E3FE100B09E2A /* Build configuration list for PBXNativeTarget "LaunchPadGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BDD346276E3FE100B09E2A /* Debug */,
+				C0BDD347276E3FE100B09E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C011B33827704348009BF610 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = C0BDD30D276E3FDE00B09E2A /* Project object */;
+}
