@@ -18,7 +18,7 @@ PODS:
     - KakaoSDKCommon/Common (= 2.11.0)
   - KakaoSDKUser (2.11.0):
     - KakaoSDKAuth (= 2.11.0)
-  - Kingfisher (7.2.4)
+  - Kingfisher (7.3.0)
   - naveridlogin-sdk-ios (4.1.3)
   - Pageboy (3.6.2)
   - RxAlamofire (6.1.1):
@@ -108,7 +108,7 @@ SPEC CHECKSUMS:
   KakaoSDKTalk: 07932cb20fbac6948947b5502d1cbaf6497c5536
   KakaoSDKTemplate: 61a4c2e46bbaee884770b2f1cd7d59cdbbc1e250
   KakaoSDKUser: 5dbefe494c50dfdc87e4072710e503d39b41a609
-  Kingfisher: 2457be2121734e69e54a2312ecc0150eb9ae70b3
+  Kingfisher: cdb1189a9223b1bc028816bd47c8b8101a58831c
   naveridlogin-sdk-ios: b9d7c20677981177ed994ecb1c8c2b49f223277d
   Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
   RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620

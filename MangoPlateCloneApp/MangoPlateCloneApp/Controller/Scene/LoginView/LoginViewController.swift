@@ -63,11 +63,7 @@ final class LoginViewController: UIViewController {
         Single.just(loginInstance)
             .subscribe(
                 onSuccess: { _ in
-                    if  ((self.loginInstance?.requestThirdPartyLogin()) != nil) {
-                        let controller  = MainViewController()
-                        controller.modalPresentationStyle = .fullScreen
-                        self.present(controller, animated: true)
-                    }
+                    self.loginInstance?.requestThirdPartyLogin()
                 },
                 onFailure: { error in
                     print(error.localizedDescription)
@@ -75,14 +71,23 @@ final class LoginViewController: UIViewController {
             .disposed(by: disposeBag)
         
     }
+    
     //MARK: - 카카오 로그인
     @objc func kakoLoginButtonHandle() {
-        if (SocialLogin.kakoLogin() != nil) {
-            let controller = MainViewController()
-            controller.modalPresentationStyle = .fullScreen
-            self.present(controller, animated: true)
-        }
+        UserApi.shared.rx.loginWithKakaoAccount()
+            .subscribe(onNext:{ (oauthToken) in
+                print("loginWithKakaoAccount() success.")
+                //do something
+                _ = oauthToken
+                let controller = MainViewController()
+                controller.modalPresentationStyle = .fullScreen
+                    self.present(controller, animated: true)
+            }, onError: {error in
+                print(error)
+            })
+            .disposed(by: disposeBag )
     }
+    
     
     //MARK:  애플 로그인
     @objc func appleLoginButtonHandle() {
@@ -103,10 +108,14 @@ extension LoginViewController: NaverThirdPartyLoginConnectionDelegate  {
     func oauth20ConnectionDidFinishRequestACTokenWithAuthCode() {
         print("Success Login, ")
         SocialLogin.getNaverInfo()
+        let controller = MainViewController()
+        present(controller, animated: true)
+        
     }
     
     func oauth20ConnectionDidFinishRequestACTokenWithRefreshToken() {
-        loginInstance?.accessToken
+//      let controller = LoginViewController()
+//        present(controller, animated: true)
         
     }
     

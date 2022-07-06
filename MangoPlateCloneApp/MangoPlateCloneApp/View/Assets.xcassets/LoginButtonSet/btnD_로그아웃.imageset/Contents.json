@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "btnD_로그아웃.jpeg",
+      "filename" : "btnD_로그아웃-1.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -17,5 +17,8 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
   }
 }

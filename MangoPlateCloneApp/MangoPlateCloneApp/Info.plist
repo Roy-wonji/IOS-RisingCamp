@@ -13,6 +13,16 @@
 			<array>
 				<string>naverlogin</string>
 			</array>
+            
+            <key>LSApplicationQueriesSchemes</key>
+              <array>
+                <string>naversearchapp</string>
+                <string>naversearchthirdlogin</string>
+                <!-- 카카오톡으로 로그인 -->
+                    <string>kakaokompassauth</string>
+                    <!-- 카카오톡 공유 -->
+                    <string>kakaolink</string>
+              </array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>

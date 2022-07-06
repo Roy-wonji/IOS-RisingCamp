@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let instance = NaverThirdPartyLoginConnection.getSharedInstance()
         // 네이버 앱으로 인증하는 방식 활성화
-        instance?.isNaverAppOauthEnable = true
+//        instance?.isNaverAppOauthEnable = true
         // SafariViewController에서 인증하는 방식 활성화
         instance?.isInAppOauthEnable = true
         // 인증 화면을 아이폰의 세로모드에서만 적용
@@ -79,7 +79,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return AuthController.rx.handleOpenUrl(url: url)
         }
         NaverThirdPartyLoginConnection.getSharedInstance()?.application(app, open: url, options: options)
-        return false
+        return true
     }
 }
 

@@ -156,7 +156,7 @@ final class LoginView: UIView {
     
     private func setConstraintsLoginButtonStack() {
         loginButtonStack.snp.makeConstraints { make in
-            make.top.equalTo(topStackView.snp.bottom).offset(30)
+            make.top.equalTo(topStackView.snp.bottom).offset(50)
             make.leading.equalTo(topStackView.snp.leading).offset(30)
             make.trailing.equalTo(topStackView.snp.trailing).offset(-30)
         }
