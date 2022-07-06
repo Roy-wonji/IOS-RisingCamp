@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import NaverThirdPartyLogin
 import RxKakaoSDKAuth
 import KakaoSDKAuth
 
@@ -17,9 +16,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     //MARK: - 네이버 로그인, 카카오 로그인
     
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
-        NaverThirdPartyLoginConnection
-            .getSharedInstance()?
-            .receiveAccessToken(URLContexts.first?.url)
         if let url = URLContexts.first?.url {
                    if (AuthApi.isKakaoTalkLoginUrl(url)) {
                        _ = AuthController.rx.handleOpenUrl(url: url)

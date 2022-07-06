@@ -7,12 +7,15 @@
 
 import RxSwift
 import RxAlamofire
-import NaverThirdPartyLogin
 import RxKakaoSDKAuth
 import RxCocoa
 import RxKakaoSDKUser
 import KakaoSDKUser
 import AuthenticationServices
+import Firebase
+import FirebaseAuth
+import GoogleSignIn
+
 
 final class LoginViewController: UIViewController {
     
@@ -25,7 +28,7 @@ final class LoginViewController: UIViewController {
     
     private let disposeBag = DisposeBag()
     
-    let loginInstance = NaverThirdPartyLoginConnection.getSharedInstance()
+    
     //MARK: - Lifcycle
     
     override func viewDidLoad() {
@@ -44,7 +47,7 @@ final class LoginViewController: UIViewController {
     }
     //naverLoginButtonHandle
     private func addTarget() {
-        loginView.naverLoginButton.rx.tap.subscribe(onNext: { [weak self] in self?.naverLoginButtonHandle()
+        loginView.googleLoginButton.rx.tap.subscribe(onNext: { [weak self] in self?.googleLoginButtonHandle()
         }).disposed(by: disposeBag)
         
         loginView.kakoLoginButton.rx.tap.subscribe(onNext: { [weak self] in
@@ -57,13 +60,24 @@ final class LoginViewController: UIViewController {
     
     //MARK: - Actions
     
-    //MARK: - 네이버 로그인
-    @objc func naverLoginButtonHandle() {
-        loginInstance?.delegate = self
-        Single.just(loginInstance)
+    //MARK: - 구글 로그인
+    @objc func googleLoginButtonHandle() {
+        Single.just(FirebaseApp.self)
             .subscribe(
-                onSuccess: { _ in
-                    self.loginInstance?.requestThirdPartyLogin()
+                onSuccess: {_ in
+                    guard let clientID = FirebaseApp.app()?.options.clientID  else {return}
+                    let config = GIDConfiguration(clientID: clientID)
+                    GIDSignIn.sharedInstance.signIn(with: config, presenting: self) { user, error in
+                        guard error == nil else { return }
+                        guard let authentication = user?.authentication, let idToken = authentication.idToken else {return}
+                        let credential = GoogleAuthProvider.credential(withIDToken: idToken,
+                                                                       accessToken: authentication.accessToken)
+                        Auth.auth().signIn(with: credential) { _, error in
+                            // 사용자 등록 후에 처리할 코드
+                            let controller = MainViewController()
+                            self.present(controller, animated: true)
+                        }
+                    }
                 },
                 onFailure: { error in
                     print(error.localizedDescription)
@@ -81,7 +95,7 @@ final class LoginViewController: UIViewController {
                 _ = oauthToken
                 let controller = MainViewController()
                 controller.modalPresentationStyle = .fullScreen
-                    self.present(controller, animated: true)
+                self.present(controller, animated: true)
             }, onError: {error in
                 print(error)
             })
@@ -103,31 +117,7 @@ final class LoginViewController: UIViewController {
     
 }
 
-//MARK:  - 네이버 로그인 확장
-extension LoginViewController: NaverThirdPartyLoginConnectionDelegate  {
-    func oauth20ConnectionDidFinishRequestACTokenWithAuthCode() {
-        print("Success Login, ")
-        SocialLogin.getNaverInfo()
-        let controller = MainViewController()
-        present(controller, animated: true)
-        
-    }
-    
-    func oauth20ConnectionDidFinishRequestACTokenWithRefreshToken() {
-//      let controller = LoginViewController()
-//        present(controller, animated: true)
-        
-    }
-    
-    func oauth20ConnectionDidFinishDeleteToken() {
-        loginInstance?.requestDeleteToken()
-    }
-    
-    func oauth20Connection(_ oauthConnection: NaverThirdPartyLoginConnection!, didFailWithError error: Error!) {
-        print("[Error] :,\(error.localizedDescription)")
-    }
-}
-
+//MARK: - 애플 로그인
 extension LoginViewController:  ASAuthorizationControllerPresentationContextProviding, ASAuthorizationControllerDelegate{
     func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
         return self.view.window!
@@ -160,7 +150,7 @@ extension LoginViewController:  ASAuthorizationControllerPresentationContextProv
     // Apple ID 연동 실패 시
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
         print(SocialError.appleLoginError.appleLoginError.localizedDescription)
-    
+        
     }
     
 }

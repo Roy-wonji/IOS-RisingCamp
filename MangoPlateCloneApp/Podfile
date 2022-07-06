@@ -21,5 +21,8 @@ target 'MangoPlateCloneApp' do
     pod 'KakaoSDKAuth'
     pod 'KakaoSDKUser' 
     pod 'KakaoSDKNavi'
-    pod 'naveridlogin-sdk-ios'
+    pod 'Firebase/Auth'
+    pod 'GoogleSignIn'
+    pod 'FirebaseAuth'
+    pod 'FirebaseFirestore'
 end

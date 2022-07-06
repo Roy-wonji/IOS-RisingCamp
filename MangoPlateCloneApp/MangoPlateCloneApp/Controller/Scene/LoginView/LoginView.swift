@@ -44,8 +44,8 @@ final class LoginView: UIView {
         stack.alignment = .fill
     }
     
-    lazy var naverLoginButton = UIButton(type: .custom).then { button in
-        button.setImage(UIImage(named: "naver_login"), for: .normal)
+    lazy var googleLoginButton = UIButton(type: .custom).then { button in
+        button.setImage(UIImage(named: "google"), for: .normal)
         button.clipsToBounds = true
         button.layer.cornerRadius = 40 / 2
         button.heightAnchor.constraint(equalToConstant: 50).isActive = true
@@ -81,7 +81,7 @@ final class LoginView: UIView {
     }
     
     
-    lazy var loginButtonStack = UIStackView(arrangedSubviews: [naverLoginButton, kakoLoginButton, appleLoginButton, orImageView, loginButton]).then { stack in
+    lazy var loginButtonStack = UIStackView(arrangedSubviews: [googleLoginButton, kakoLoginButton, appleLoginButton, orImageView, loginButton]).then { stack in
         stack.axis = .vertical
         stack.spacing = 5
         stack.alignment = .fill
