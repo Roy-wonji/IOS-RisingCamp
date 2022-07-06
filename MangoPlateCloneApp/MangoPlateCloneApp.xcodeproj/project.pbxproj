@@ -17,6 +17,11 @@
 		7F3B56CB2874733800641D57 /* SocialLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56CA2874733800641D57 /* SocialLogin.swift */; };
 		7F3B56CE287481A200641D57 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56CD287481A200641D57 /* MainViewController.swift */; };
 		7F3B56D02874A6FF00641D57 /* SocialError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56CF2874A6FF00641D57 /* SocialError.swift */; };
+		7F3B56DE2875CE1700641D57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F3B56DD2875CE1700641D57 /* GoogleService-Info.plist */; };
+		7F3B56E22875D30E00641D57 /* EmailLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56E12875D30E00641D57 /* EmailLoginView.swift */; };
+		7F3B56E42875D32B00641D57 /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56E32875D32B00641D57 /* EmailLoginViewController.swift */; };
+		7F3B56E72875DA7600641D57 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56E62875DA7600641D57 /* Common.swift */; };
+		7F3B56EA2875E2D600641D57 /* FindFoodVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56E92875E2D600641D57 /* FindFoodVIewController.swift */; };
 		DB14DB7C9FE2D5AC61E94B6D /* Pods_MangoPlateCloneApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D50F200AC2DE90546925A3 /* Pods_MangoPlateCloneApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +39,11 @@
 		7F3B56CA2874733800641D57 /* SocialLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLogin.swift; sourceTree = "<group>"; };
 		7F3B56CD287481A200641D57 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7F3B56CF2874A6FF00641D57 /* SocialError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialError.swift; sourceTree = "<group>"; };
+		7F3B56DD2875CE1700641D57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F3B56E12875D30E00641D57 /* EmailLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginView.swift; sourceTree = "<group>"; };
+		7F3B56E32875D32B00641D57 /* EmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
+		7F3B56E62875DA7600641D57 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7F3B56E92875E2D600641D57 /* FindFoodVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFoodVIewController.swift; sourceTree = "<group>"; };
 		90D50F200AC2DE90546925A3 /* Pods_MangoPlateCloneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoPlateCloneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B50F6C67F72707506D69A58 /* Pods-MangoPlateCloneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlateCloneApp.release.xcconfig"; path = "Target Support Files/Pods-MangoPlateCloneApp/Pods-MangoPlateCloneApp.release.xcconfig"; sourceTree = "<group>"; };
 		DFD54911FAAA7D03ECA17A1D /* Pods-MangoPlateCloneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlateCloneApp.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlateCloneApp/Pods-MangoPlateCloneApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +98,7 @@
 				7F140F5F28746CB500A0DD00 /* ViewModel */,
 				7F140F5E28746CAE00A0DD00 /* View */,
 				7F140F5728746C8C00A0DD00 /* Info.plist */,
+				7F3B56DD2875CE1700641D57 /* GoogleService-Info.plist */,
 			);
 			path = MangoPlateCloneApp;
 			sourceTree = "<group>";
@@ -102,6 +113,7 @@
 		7F140F5E28746CAE00A0DD00 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F3B56E52875DA6300641D57 /* Common */,
 				7F140F4F28746C8900A0DD00 /* Main.storyboard */,
 				7F3B56C828746EE000641D57 /* LaunchScreen.storyboard */,
 				7F140F5228746C8C00A0DD00 /* Assets.xcassets */,
@@ -145,6 +157,7 @@
 		7F3B56BF28746D9900641D57 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				7F3B56E82875E2A600641D57 /* 맛집리스트 */,
 				7F3B56CC2874818F00641D57 /* MainView */,
 				7F3B56C628746DCF00641D57 /* LoginView */,
 			);
@@ -154,8 +167,8 @@
 		7F3B56C628746DCF00641D57 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
-				7F3B56C328746DBC00641D57 /* LoginView.swift */,
-				7F3B56C228746DBB00641D57 /* LoginViewController.swift */,
+				7F3B56E02875D2E700641D57 /* EmailLogin */,
+				7F3B56DF2875D2CF00641D57 /* MainLogin */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";
@@ -166,6 +179,41 @@
 				7F3B56CD287481A200641D57 /* MainViewController.swift */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		7F3B56DF2875D2CF00641D57 /* MainLogin */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B56C328746DBC00641D57 /* LoginView.swift */,
+				7F3B56C228746DBB00641D57 /* LoginViewController.swift */,
+			);
+			path = MainLogin;
+			sourceTree = "<group>";
+		};
+		7F3B56E02875D2E700641D57 /* EmailLogin */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B56E12875D30E00641D57 /* EmailLoginView.swift */,
+				7F3B56E32875D32B00641D57 /* EmailLoginViewController.swift */,
+			);
+			path = EmailLogin;
+			sourceTree = "<group>";
+		};
+		7F3B56E52875DA6300641D57 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B56E62875DA7600641D57 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7F3B56E82875E2A600641D57 /* 맛집리스트 */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B56E92875E2D600641D57 /* FindFoodVIewController.swift */,
+			);
+			name = "맛집리스트";
+			path = "맛집리스트";
 			sourceTree = "<group>";
 		};
 		CEADB447659FD356E6B067D4 /* Pods */ = {
@@ -238,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F3B56C928746EE000641D57 /* LaunchScreen.storyboard in Resources */,
+				7F3B56DE2875CE1700641D57 /* GoogleService-Info.plist in Resources */,
 				7F140F5328746C8C00A0DD00 /* Assets.xcassets in Resources */,
 				7F140F5128746C8900A0DD00 /* Main.storyboard in Resources */,
 			);
@@ -295,9 +344,13 @@
 				7F3B56C428746DBC00641D57 /* LoginViewController.swift in Sources */,
 				7F140F4A28746C8900A0DD00 /* AppDelegate.swift in Sources */,
 				7F3B56CB2874733800641D57 /* SocialLogin.swift in Sources */,
+				7F3B56E22875D30E00641D57 /* EmailLoginView.swift in Sources */,
 				7F3B56CE287481A200641D57 /* MainViewController.swift in Sources */,
 				7F3B56D02874A6FF00641D57 /* SocialError.swift in Sources */,
 				7F3B56C528746DBC00641D57 /* LoginView.swift in Sources */,
+				7F3B56E42875D32B00641D57 /* EmailLoginViewController.swift in Sources */,
+				7F3B56EA2875E2D600641D57 /* FindFoodVIewController.swift in Sources */,
+				7F3B56E72875DA7600641D57 /* Common.swift in Sources */,
 				7F140F4C28746C8900A0DD00 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

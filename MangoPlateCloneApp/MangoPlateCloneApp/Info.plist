@@ -13,16 +13,13 @@
 			<array>
 				<string>naverlogin</string>
 			</array>
-            
-            <key>LSApplicationQueriesSchemes</key>
-              <array>
-                <string>naversearchapp</string>
-                <string>naversearchthirdlogin</string>
-                <!-- 카카오톡으로 로그인 -->
-                    <string>kakaokompassauth</string>
-                    <!-- 카카오톡 공유 -->
-                    <string>kakaolink</string>
-              </array>
+			<key>LSApplicationQueriesSchemes</key>
+			<array>
+				<string>naversearchapp</string>
+				<string>naversearchthirdlogin</string>
+				<string>kakaokompassauth</string>
+				<string>kakaolink</string>
+			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
@@ -32,6 +29,16 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>kakao{03e55ed85466b7089e1e59b22d0227f8}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>google</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.167020211325-nbikb72eh7i2n360p06ntpt09ui9ur1q</string>
 			</array>
 		</dict>
 	</array>
