@@ -84,6 +84,7 @@ final class LoginViewController: UIViewController {
                         Auth.auth().signIn(with: credential) { _, error in
                             // 사용자 등록 후에 처리할 코드
                             let controller = MainViewController()
+                            controller.modalPresentationStyle = .fullScreen
                             self.present(controller, animated: true)
                         }
                     }

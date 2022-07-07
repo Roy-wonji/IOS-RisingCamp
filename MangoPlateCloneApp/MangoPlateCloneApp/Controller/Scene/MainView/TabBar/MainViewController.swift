@@ -12,11 +12,13 @@ import RxSwift
 import SnapKit
 
 final class MainViewController: TabmanViewController {
-
+    
     //MARK: - properties
     private let tabBar = TMBar.ButtonBar()
     private var disposeBag = DisposeBag()
     private var tabView = UIView()
+    private let tabBarItems = MainViewController.Tab.allCases.map({BarItem(for: $0)})
+    private let systemBar = MangoBar.makeBar().systemBar()
     private var viewController = [FindFoodVIewController(), UIViewController(), UIViewController(), UIViewController(), UIViewController()]
     
     //MARK:  - Lifecycle
@@ -24,7 +26,7 @@ final class MainViewController: TabmanViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         configureUI()
-        tabview()
+    
         
     }
     
@@ -45,22 +47,14 @@ final class MainViewController: TabmanViewController {
             .subscribe(
                 onNext: { _ in
                     self.dataSource = self
-                    self.settingTabBar(ctBar: self.tabBar)
-                    self.addBar(self.tabBar, dataSource: self, at: .custom(view: self.tabView, layout: nil))
+                    self.systemBar.backgroundStyle = .flat(color: .white)
+                    self.addBar(self.systemBar, dataSource: self, at: .bottom)
                 })
             .disposed(by: disposeBag)
     }
     
     
-    private func tabview() {
-        view.addSubview(tabView)
-        tabView.snp.makeConstraints { make in
-            make.bottom.equalToSuperview().offset(0)
-            make.leading.equalToSuperview().offset(0)
-            make.trailing.equalToSuperview().offset(0)
-            make.height.equalTo(60)
-        }
-    }
+   
 }
 
 
@@ -97,31 +91,46 @@ extension MainViewController:  PageboyViewControllerDataSource, TMBarDataSource 
     func defaultPage(for pageboyViewController: PageboyViewController) -> PageboyViewController.Page? {
         return nil
     }
+    
+    private class BarItem: TMBarItemable {
+        var selectedImage: UIImage?
+        
+        let tab: MainViewController.Tab
+        
+        init(for tab: MainViewController.Tab) {
+            self.tab = tab
+        }
+        
+        private var _title: String? {
+            return tab.rawValue.capitalized
+        }
+        
+        var title: String? {
+            get {
+                return _title
+            } set {}
+        }
+        
+        private var _image: UIImage? {
+            return UIImage(named: "ic_\(tab.rawValue)")
+        }
+        
+        var image: UIImage? {
+            get {
+                return _image
+            } set {}
+        }
+        
+        var badgeValue: String?
+    }
 }
 
-extension MainViewController{
-    func settingTabBar (ctBar : TMBar.ButtonBar) {
-        
-        ctBar.layout.transitionStyle = .snap
-    
-            // 왼쪽 여백주기
-        ctBar.snp.makeConstraints { make in
-            make.height.equalTo(50)
-        }
-        ctBar.layout.contentInset = UIEdgeInsets(top: .zero, left: 20.0, bottom: 20.0, right: 20.0)
-            // 간격
-            ctBar.layout.interButtonSpacing = 40
-            ctBar.backgroundView.style = .blur(style: .light)
-            // 선택 / 안선택 색 + font size
-            ctBar.buttons.customize { (button) in
-                button.layer.cornerRadius = 20
-                button.tintColor = .lightGray
-                button.selectedTintColor = .systemOrange
-                button.font = UIFont.systemFont(ofSize: 16)
-                button.selectedFont = UIFont.systemFont(ofSize: 16, weight: .medium)
-            }
-            
-            // 인디케이터 (영상에서 주황색 아래 바 부분)
-            ctBar.indicator.weight = .custom(value: 2)
-            ctBar.indicator.tintColor = .black
-        }}
+extension MainViewController {
+    enum Tab: String, CaseIterable {
+        case find
+        case pick
+        case news
+        case myProfile
+    }
+}
+

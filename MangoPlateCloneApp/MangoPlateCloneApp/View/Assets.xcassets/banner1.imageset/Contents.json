@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "btnD_완성형.jpeg",
+      "filename" : "banner1-3.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -10,6 +10,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "banner1-2.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }
