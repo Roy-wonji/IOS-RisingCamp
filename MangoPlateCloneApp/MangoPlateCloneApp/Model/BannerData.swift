@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct BannerData {
-   var nowPage: Int = .zero
+struct UrlData {
+    var urlString: String?
     
-    
-    init(nowPage: Int) {
-        self.nowPage = nowPage
+    init(urlString: String?) {
+        self.urlString = urlString
     }
+  
 }

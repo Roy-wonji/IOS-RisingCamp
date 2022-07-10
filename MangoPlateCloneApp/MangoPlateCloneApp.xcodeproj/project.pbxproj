@@ -26,10 +26,33 @@
 		7F3B56F02877083200641D57 /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56EF2877083200641D57 /* DisplayMode.swift */; };
 		7F3B56F22877088D00641D57 /* MangoBarIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56F12877088D00641D57 /* MangoBarIndicator.swift */; };
 		7F3B56F528770ABB00641D57 /* TinderColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56F428770ABB00641D57 /* TinderColors.swift */; };
-		7F3B56FA287717D500641D57 /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56F9287717D500641D57 /* CellIdentifier.swift */; };
-		7F3B56FD2877182000641D57 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56FC2877182000641D57 /* BannerCell.swift */; };
-		7F3B56FF287719F300641D57 /* BannerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56FE287719F300641D57 /* BannerData.swift */; };
+		7F3B56FA287717D500641D57 /* Celldentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56F9287717D500641D57 /* Celldentifier.swift */; };
+		7F3B56FD2877182000641D57 /* FindFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B56FC2877182000641D57 /* FindFoodView.swift */; };
 		7F3B5701287723A700641D57 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5700287723A700641D57 /* CollectionView.swift */; };
+		7F3B57032878829700641D57 /* FindFoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B57022878829700641D57 /* FindFoodCollectionViewCell.swift */; };
+		7F3B57062879C98F00641D57 /* KakoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B57052879C98F00641D57 /* KakoData.swift */; };
+		7F3B57082879CAE900641D57 /* RestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B57072879CAE900641D57 /* RestInfo.swift */; };
+		7F3B570B2879CBAA00641D57 /* KakaoLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B570A2879CBAA00641D57 /* KakaoLocalDataManager.swift */; };
+		7F3B570E2879CCE600641D57 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B570D2879CCE600641D57 /* Constant.swift */; };
+		7F3B57112879CD8A00641D57 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B57102879CD8A00641D57 /* ApiKey.swift */; };
+		7F3B57132879D1BF00641D57 /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B57122879D1BF00641D57 /* NetworkManger.swift */; };
+		7F3B57162879D4B000641D57 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B57152879D4B000641D57 /* UIViewController.swift */; };
+		7F3B57182879D4F500641D57 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B57172879D4F500641D57 /* IndicatorView.swift */; };
+		7F3B571D2879D75200641D57 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B571C2879D75200641D57 /* Extensions.swift */; };
+		7F3B5720287AC25600641D57 /* NaverData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B571F287AC25600641D57 /* NaverData.swift */; };
+		7F3B5722287ACCC300641D57 /* NaverLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5721287ACCC300641D57 /* NaverLocalDataManager.swift */; };
+		7F3B5724287AF28400641D57 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5723287AF28400641D57 /* Music.swift */; };
+		7F3B5727287AF33400641D57 /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5726287AF33400641D57 /* MusicData.swift */; };
+		7F3B572A287AF3CC00641D57 /* MusicNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5729287AF3CC00641D57 /* MusicNetworkError.swift */; };
+		7F3B572C287AF41F00641D57 /* MusicNetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B572B287AF41F00641D57 /* MusicNetworkManger.swift */; };
+		7F3B572F287B175700641D57 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B572E287B175700641D57 /* MusicViewController.swift */; };
+		7F3B5731287B178500641D57 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5730287B178500641D57 /* MusicCell.swift */; };
+		7F3B5734287B17C900641D57 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5733287B17C900641D57 /* CustomLabel.swift */; };
+		7F3B5736287B1F5100641D57 /* FoodVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5735287B1F5000641D57 /* FoodVIewModel.swift */; };
+		7F3B5739287B231300641D57 /* LocationBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B5738287B231300641D57 /* LocationBottomSheet.swift */; };
+		7F3B573B287B236B00641D57 /* LocationBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B573A287B236B00641D57 /* LocationBottomSheetView.swift */; };
+		7F3B573E287B2B7C00641D57 /* FindFoodMapVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B573D287B2B7C00641D57 /* FindFoodMapVIewController.swift */; };
+		7F3B5740287B2BD500641D57 /* FindFoodMapVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3B573F287B2BD500641D57 /* FindFoodMapVIew.swift */; };
 		DB14DB7C9FE2D5AC61E94B6D /* Pods_MangoPlateCloneApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D50F200AC2DE90546925A3 /* Pods_MangoPlateCloneApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,10 +79,33 @@
 		7F3B56EF2877083200641D57 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
 		7F3B56F12877088D00641D57 /* MangoBarIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoBarIndicator.swift; sourceTree = "<group>"; };
 		7F3B56F428770ABB00641D57 /* TinderColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderColors.swift; sourceTree = "<group>"; };
-		7F3B56F9287717D500641D57 /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
-		7F3B56FC2877182000641D57 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
-		7F3B56FE287719F300641D57 /* BannerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerData.swift; sourceTree = "<group>"; };
+		7F3B56F9287717D500641D57 /* Celldentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celldentifier.swift; sourceTree = "<group>"; };
+		7F3B56FC2877182000641D57 /* FindFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFoodView.swift; sourceTree = "<group>"; };
 		7F3B5700287723A700641D57 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		7F3B57022878829700641D57 /* FindFoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		7F3B57052879C98F00641D57 /* KakoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakoData.swift; sourceTree = "<group>"; };
+		7F3B57072879CAE900641D57 /* RestInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestInfo.swift; sourceTree = "<group>"; };
+		7F3B570A2879CBAA00641D57 /* KakaoLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLocalDataManager.swift; sourceTree = "<group>"; };
+		7F3B570D2879CCE600641D57 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7F3B57102879CD8A00641D57 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
+		7F3B57122879D1BF00641D57 /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		7F3B57152879D4B000641D57 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		7F3B57172879D4F500641D57 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		7F3B571C2879D75200641D57 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7F3B571F287AC25600641D57 /* NaverData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverData.swift; sourceTree = "<group>"; };
+		7F3B5721287ACCC300641D57 /* NaverLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLocalDataManager.swift; sourceTree = "<group>"; };
+		7F3B5723287AF28400641D57 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		7F3B5726287AF33400641D57 /* MusicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
+		7F3B5729287AF3CC00641D57 /* MusicNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicNetworkError.swift; sourceTree = "<group>"; };
+		7F3B572B287AF41F00641D57 /* MusicNetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicNetworkManger.swift; sourceTree = "<group>"; };
+		7F3B572E287B175700641D57 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		7F3B5730287B178500641D57 /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		7F3B5733287B17C900641D57 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		7F3B5735287B1F5000641D57 /* FoodVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVIewModel.swift; sourceTree = "<group>"; };
+		7F3B5738287B231300641D57 /* LocationBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBottomSheet.swift; sourceTree = "<group>"; };
+		7F3B573A287B236B00641D57 /* LocationBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBottomSheetView.swift; sourceTree = "<group>"; };
+		7F3B573D287B2B7C00641D57 /* FindFoodMapVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFoodMapVIewController.swift; sourceTree = "<group>"; };
+		7F3B573F287B2BD500641D57 /* FindFoodMapVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFoodMapVIew.swift; sourceTree = "<group>"; };
 		90D50F200AC2DE90546925A3 /* Pods_MangoPlateCloneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangoPlateCloneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B50F6C67F72707506D69A58 /* Pods-MangoPlateCloneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlateCloneApp.release.xcconfig"; path = "Target Support Files/Pods-MangoPlateCloneApp/Pods-MangoPlateCloneApp.release.xcconfig"; sourceTree = "<group>"; };
 		DFD54911FAAA7D03ECA17A1D /* Pods-MangoPlateCloneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoPlateCloneApp.debug.xcconfig"; path = "Target Support Files/Pods-MangoPlateCloneApp/Pods-MangoPlateCloneApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +154,7 @@
 			children = (
 				7F3B56C728746E0700641D57 /* MangoPlateCloneApp.entitlements */,
 				7F140F6228746CD000A0DD00 /* Utills */,
+				7F3B570F2879CD5900641D57 /* Secret */,
 				7F140F5D28746CA300A0DD00 /* Model */,
 				7F140F6128746CC800A0DD00 /* Controller */,
 				7F140F6028746CBE00A0DD00 /* Network */,
@@ -122,7 +169,8 @@
 		7F140F5D28746CA300A0DD00 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7F3B56FE287719F300641D57 /* BannerData.swift */,
+				7F3B5723287AF28400641D57 /* Music.swift */,
+				7F3B5726287AF33400641D57 /* MusicData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,6 +178,8 @@
 		7F140F5E28746CAE00A0DD00 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F3B5732287B17B900641D57 /* Label */,
+				7F3B57142879D4A600641D57 /* UIViewController */,
 				7F3B56F328770AA800641D57 /* Color */,
 				7F3B56EB2877067000641D57 /* TabBar */,
 				7F3B56E52875DA6300641D57 /* Common */,
@@ -143,6 +193,7 @@
 		7F140F5F28746CB500A0DD00 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7F3B5735287B1F5000641D57 /* FoodVIewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -150,8 +201,10 @@
 		7F140F6028746CBE00A0DD00 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				7F3B56CA2874733800641D57 /* SocialLogin.swift */,
-				7F3B56CF2874A6FF00641D57 /* SocialError.swift */,
+				7F3B5728287AF3A000641D57 /* MusicNetwork */,
+				7F3B571E287AC22600641D57 /* NaverNetworkManger */,
+				7F3B57092879CB7B00641D57 /* KakoNetworkManger */,
+				7F3B57042879C95100641D57 /* Login */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -195,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				7F3B56F8287716ED00641D57 /* TabBar */,
+				7F3B572D287B16BA00641D57 /* Music */,
 				7F3B56E82875E2A600641D57 /* 맛집리스트 */,
 			);
 			path = MainView;
@@ -222,8 +276,9 @@
 			isa = PBXGroup;
 			children = (
 				7F3B56E62875DA7600641D57 /* Common.swift */,
-				7F3B56F9287717D500641D57 /* CellIdentifier.swift */,
+				7F3B56F9287717D500641D57 /* Celldentifier.swift */,
 				7F3B5700287723A700641D57 /* CollectionView.swift */,
+				7F3B570D2879CCE600641D57 /* Constant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -231,8 +286,11 @@
 		7F3B56E82875E2A600641D57 /* 맛집리스트 */ = {
 			isa = PBXGroup;
 			children = (
-				7F3B56FB2877180E00641D57 /* Banner */,
 				7F3B56E92875E2D600641D57 /* FindFoodVIewController.swift */,
+				7F3B56FC2877182000641D57 /* FindFoodView.swift */,
+				7F3B57022878829700641D57 /* FindFoodCollectionViewCell.swift */,
+				7F3B5737287B22D800641D57 /* BottomSheet */,
+				7F3B573C287B2B3D00641D57 /* Maps */,
 			);
 			name = "맛집리스트";
 			path = "맛집리스트";
@@ -264,12 +322,95 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
-		7F3B56FB2877180E00641D57 /* Banner */ = {
+		7F3B57042879C95100641D57 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				7F3B56FC2877182000641D57 /* BannerCell.swift */,
+				7F3B56CF2874A6FF00641D57 /* SocialError.swift */,
+				7F3B56CA2874733800641D57 /* SocialLogin.swift */,
 			);
-			path = Banner;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7F3B57092879CB7B00641D57 /* KakoNetworkManger */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B57072879CAE900641D57 /* RestInfo.swift */,
+				7F3B57052879C98F00641D57 /* KakoData.swift */,
+				7F3B570A2879CBAA00641D57 /* KakaoLocalDataManager.swift */,
+				7F3B57122879D1BF00641D57 /* NetworkManger.swift */,
+			);
+			path = KakoNetworkManger;
+			sourceTree = "<group>";
+		};
+		7F3B570F2879CD5900641D57 /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B57102879CD8A00641D57 /* ApiKey.swift */,
+			);
+			path = Secret;
+			sourceTree = "<group>";
+		};
+		7F3B57142879D4A600641D57 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B57152879D4B000641D57 /* UIViewController.swift */,
+				7F3B57172879D4F500641D57 /* IndicatorView.swift */,
+				7F3B571C2879D75200641D57 /* Extensions.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		7F3B571E287AC22600641D57 /* NaverNetworkManger */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B571F287AC25600641D57 /* NaverData.swift */,
+				7F3B5721287ACCC300641D57 /* NaverLocalDataManager.swift */,
+			);
+			path = NaverNetworkManger;
+			sourceTree = "<group>";
+		};
+		7F3B5728287AF3A000641D57 /* MusicNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B5729287AF3CC00641D57 /* MusicNetworkError.swift */,
+				7F3B572B287AF41F00641D57 /* MusicNetworkManger.swift */,
+			);
+			path = MusicNetwork;
+			sourceTree = "<group>";
+		};
+		7F3B572D287B16BA00641D57 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B572E287B175700641D57 /* MusicViewController.swift */,
+				7F3B5730287B178500641D57 /* MusicCell.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		7F3B5732287B17B900641D57 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B5733287B17C900641D57 /* CustomLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		7F3B5737287B22D800641D57 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B5738287B231300641D57 /* LocationBottomSheet.swift */,
+				7F3B573A287B236B00641D57 /* LocationBottomSheetView.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		7F3B573C287B2B3D00641D57 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B573D287B2B7C00641D57 /* FindFoodMapVIewController.swift */,
+				7F3B573F287B2BD500641D57 /* FindFoodMapVIew.swift */,
+			);
+			path = Maps;
 			sourceTree = "<group>";
 		};
 		CEADB447659FD356E6B067D4 /* Pods */ = {
@@ -397,21 +538,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3B5734287B17C900641D57 /* CustomLabel.swift in Sources */,
+				7F3B5722287ACCC300641D57 /* NaverLocalDataManager.swift in Sources */,
+				7F3B572F287B175700641D57 /* MusicViewController.swift in Sources */,
 				7F3B56F22877088D00641D57 /* MangoBarIndicator.swift in Sources */,
+				7F3B572A287AF3CC00641D57 /* MusicNetworkError.swift in Sources */,
+				7F3B573E287B2B7C00641D57 /* FindFoodMapVIewController.swift in Sources */,
 				7F3B56C428746DBC00641D57 /* LoginViewController.swift in Sources */,
-				7F3B56FA287717D500641D57 /* CellIdentifier.swift in Sources */,
+				7F3B5739287B231300641D57 /* LocationBottomSheet.swift in Sources */,
+				7F3B5720287AC25600641D57 /* NaverData.swift in Sources */,
+				7F3B57162879D4B000641D57 /* UIViewController.swift in Sources */,
+				7F3B56FA287717D500641D57 /* Celldentifier.swift in Sources */,
 				7F140F4A28746C8900A0DD00 /* AppDelegate.swift in Sources */,
+				7F3B5724287AF28400641D57 /* Music.swift in Sources */,
 				7F3B56F528770ABB00641D57 /* TinderColors.swift in Sources */,
+				7F3B5731287B178500641D57 /* MusicCell.swift in Sources */,
 				7F3B56CB2874733800641D57 /* SocialLogin.swift in Sources */,
+				7F3B571D2879D75200641D57 /* Extensions.swift in Sources */,
+				7F3B57132879D1BF00641D57 /* NetworkManger.swift in Sources */,
 				7F3B5701287723A700641D57 /* CollectionView.swift in Sources */,
 				7F3B56E22875D30E00641D57 /* EmailLoginView.swift in Sources */,
-				7F3B56FD2877182000641D57 /* BannerCell.swift in Sources */,
+				7F3B57182879D4F500641D57 /* IndicatorView.swift in Sources */,
+				7F3B56FD2877182000641D57 /* FindFoodView.swift in Sources */,
+				7F3B5740287B2BD500641D57 /* FindFoodMapVIew.swift in Sources */,
 				7F3B56CE287481A200641D57 /* MainViewController.swift in Sources */,
+				7F3B57062879C98F00641D57 /* KakoData.swift in Sources */,
+				7F3B570E2879CCE600641D57 /* Constant.swift in Sources */,
 				7F3B56D02874A6FF00641D57 /* SocialError.swift in Sources */,
 				7F3B56ED2877078A00641D57 /* MangoBar.swift in Sources */,
-				7F3B56FF287719F300641D57 /* BannerData.swift in Sources */,
+				7F3B573B287B236B00641D57 /* LocationBottomSheetView.swift in Sources */,
+				7F3B57112879CD8A00641D57 /* ApiKey.swift in Sources */,
 				7F3B56C528746DBC00641D57 /* LoginView.swift in Sources */,
+				7F3B57082879CAE900641D57 /* RestInfo.swift in Sources */,
+				7F3B57032878829700641D57 /* FindFoodCollectionViewCell.swift in Sources */,
 				7F3B56E42875D32B00641D57 /* EmailLoginViewController.swift in Sources */,
+				7F3B5736287B1F5100641D57 /* FoodVIewModel.swift in Sources */,
+				7F3B5727287AF33400641D57 /* MusicData.swift in Sources */,
+				7F3B572C287AF41F00641D57 /* MusicNetworkManger.swift in Sources */,
+				7F3B570B2879CBAA00641D57 /* KakaoLocalDataManager.swift in Sources */,
 				7F3B56EA2875E2D600641D57 /* FindFoodVIewController.swift in Sources */,
 				7F3B56F02877083200641D57 /* DisplayMode.swift in Sources */,
 				7F3B56E72875DA7600641D57 /* Common.swift in Sources */,

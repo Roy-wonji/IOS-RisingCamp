@@ -17,7 +17,7 @@ class MangoBar {
         bar.scrollMode = .swipe
         bar .buttons.customize { button in
             button.tintColor = .gray
-            button.selectedTintColor = TinderColors.barTintColor
+            button.selectedTintColor = .barTintColor
         }
         
         bar.backgroundView.style = .flat(color: .white)

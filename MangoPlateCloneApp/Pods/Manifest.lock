@@ -722,6 +722,9 @@ PODS:
     - AppAuth/Core (~> 1.4)
     - GTMSessionFetcher/Core (~> 1.5)
   - GTMSessionFetcher/Core (1.7.2)
+  - ImageSlideshow (1.9.2):
+    - ImageSlideshow/Core (= 1.9.2)
+  - ImageSlideshow/Core (1.9.2)
   - KakaoSDKAuth (2.11.0):
     - KakaoSDKCommon (= 2.11.0)
   - KakaoSDKCommon (2.11.0):
@@ -798,6 +801,7 @@ DEPENDENCIES:
   - FirebaseAuth
   - FirebaseFirestore
   - GoogleSignIn
+  - ImageSlideshow (~> 1.9.0)
   - KakaoSDKAuth
   - KakaoSDKCommon
   - KakaoSDKNavi
@@ -832,6 +836,7 @@ SPEC REPOS:
     - gRPC-Core
     - GTMAppAuth
     - GTMSessionFetcher
+    - ImageSlideshow
     - KakaoSDKAuth
     - KakaoSDKCommon
     - KakaoSDKNavi
@@ -874,6 +879,7 @@ SPEC CHECKSUMS:
   gRPC-Core: 943e491cb0d45598b0b0eb9e910c88080369290b
   GTMAppAuth: 4d8f864896f3646f0c33baf38a28362f4c601e15
   GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
   KakaoSDKAuth: b9470887e42b869725b391f4af34c4aaec42ea46
   KakaoSDKCommon: 0f59f2c1aead6012d92758e8ca46b63ea11c408b
   KakaoSDKNavi: 1f35b977a70329019befc3589c9f165f48afaab2
@@ -898,6 +904,6 @@ SPEC CHECKSUMS:
   Tabman: 447a50447ed2869c39ab3b1a779327e43e067c4e
   Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
 
-PODFILE CHECKSUM: 3a15d46e5dae8be6efcaeba0c76786fca34a5ce4
+PODFILE CHECKSUM: 239bbf71036945a06001e294d800d5bb9bea517c
 
 COCOAPODS: 1.11.3

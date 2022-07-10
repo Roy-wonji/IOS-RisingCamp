@@ -25,4 +25,5 @@ target 'MangoPlateCloneApp' do
     pod 'GoogleSignIn'
     pod 'FirebaseAuth'
     pod 'FirebaseFirestore'
+    pod 'ImageSlideshow', '~> 1.9.0'
 end

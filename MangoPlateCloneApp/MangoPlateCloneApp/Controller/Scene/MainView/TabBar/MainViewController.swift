@@ -19,7 +19,7 @@ final class MainViewController: TabmanViewController {
     private var tabView = UIView()
     private let tabBarItems = MainViewController.Tab.allCases.map({BarItem(for: $0)})
     private let systemBar = MangoBar.makeBar().systemBar()
-    private var viewController = [FindFoodVIewController(), UIViewController(), UIViewController(), UIViewController(), UIViewController()]
+    private var viewController = [FindFoodVIewController(), MusicViewController(), UIViewController(), UIViewController(), UIViewController()]
     
     //MARK:  - Lifecycle
     override func viewDidLoad() {
