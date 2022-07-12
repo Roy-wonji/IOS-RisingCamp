@@ -7,7 +7,7 @@
 
 ### 실행 영상 </br>
 
-<img src = "https://user-images.githubusercontent.com/75601594/175778989-03d3b9d7-42c5-4ca5-9ac7-ee5fea92d09b.gif" width=25%>
+<img src = "https://user-images.githubusercontent.com/75601594/178541103-75aa286f-f798-42de-bad4-2cb8ac29a220.gif" width=40%>
 
 
 </br>
@@ -15,7 +15,8 @@
 ### 화면 UI
 </br>
 
-<img src="https://user-images.githubusercontent.com/75601594/175778390-1bd8e989-b7bb-4fd7-a1bb-b09f8b511f09.jpg" width=60%> </br>
+<img src="https://user-images.githubusercontent.com/75601594/178540929-6abb7d39-be08-4ad2-b84d-1d57376d815f.png" width=20%> </br>
+
 
 
 
