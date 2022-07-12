@@ -1,8 +1,8 @@
 # ⛺️Rising Camp(라이징캠프) 7th
 
 
-#### 🗓프로젝트 : 런치 패드 게임 
-#### 🗓 기간: 2022.06.27 ~ 2022.07.01  </br></br>
+#### 🗓프로젝트 : 망고플레이트 클론
+#### 🗓 기간: 2022.07.04 ~ 2022.07.07  </br></br>
 
 
 ### 실행 영상 </br>
@@ -23,7 +23,6 @@
 🗂 세부사항
 
 - scrollView
-- storyboard
 - tabbarController 
 - UITableView
 - TabBarItem
@@ -34,6 +33,15 @@
 - UIReusableTableView
 - UITableViewCell
 - UIButton
+- RXSWIFT
+- Kako login
+- Firebase
+- Googlelogin
+- AppleLogin
+- CustomTab Bar
+- TabMan
+- ItunseApi
+- Network
 - UIProgressBar
 - UIImageView
 - UICollectionView
@@ -44,7 +52,7 @@
 <div markdown="1">
  &nbsp;
 
- - [2022.06.27](https://www.notion.so/softsquared/4-8264365a76e8401bae513eaa9981702f)
+ - [2022.06.27](https://www.notion.so/softsquared/5-66c566f024b0497d87d5689f1d00e72b)
 
  &nbsp;   
 </div>

@@ -1,8 +1,8 @@
 # ⛺️Rising Camp(라이징캠프) 7th
 
 
-#### 🗓프로젝트 배달의민족 클론 코딩
-#### 🗓 기간: 2022.06.21 ~ 2022.06.24  </br></br>
+#### 🗓프로젝트 ox 맞추기 게임
+#### 🗓 기간: 2022.06.27 ~ 2022.07.01  </br></br>
 
 
 ### 실행 영상 </br>
@@ -22,30 +22,16 @@
 
 🗂 세부사항
 
-- scrollView
-- storyboard
-- tabbarController 
-- UITableView
-- TabBarItem
-- Bar button Item
-- NavigationController
-- NavigationBar
-- Segmented Control
-- UIReusableTableView
-- UITableViewCell
-- Stepper 
-- blurView
-- UNUserNotificationCenter
-- RXSwift
-- MobileCoreServices
-- TabMan </br>
+- SwiftUI
+- labels
+- Button </br>
 
 <details>
 <summary><b>🖇 해당 주차 키워드 및  내용 정리 <b/></summary>
 <div markdown="1">
  &nbsp;
 
- - [2022.06.22](https://www.notion.so/softsquared/3-db07759a2aea4df283c66846718032bc)
+ - [2022.06.27](https://www.notion.so/softsquared/4-8264365a76e8401bae513eaa9981702f)
 
  &nbsp;   
 </div>

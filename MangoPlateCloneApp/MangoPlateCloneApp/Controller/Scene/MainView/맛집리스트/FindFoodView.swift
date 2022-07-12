@@ -24,7 +24,7 @@ final class FindFoodView : UIView {
     
     
     lazy var locationButton = UIButton(type: .system).then { button in
-        button.setTitle("강남구", for: .normal)
+        button.setTitle("강남", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         button.setTitleColor(.black, for: .normal)
         button.setTitleColor(.black, for: .normal)
@@ -61,8 +61,6 @@ final class FindFoodView : UIView {
         stack.distribution = .equalSpacing
         stack.alignment = .fill
     }
-    
-   
     
     lazy var imageview = UIImageView().then { image in
         image.contentMode = .scaleToFill
@@ -121,8 +119,7 @@ final class FindFoodView : UIView {
         stack.distribution = .equalSpacing
         stack.spacing = 20
     }
-    
-    
+
     private lazy var bottomImageView = UIImageView().then { image in
         image.contentMode = .scaleAspectFill
         image.snp.makeConstraints { make in
